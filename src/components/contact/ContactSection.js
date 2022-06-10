@@ -36,79 +36,41 @@ export const ContactSection = () => {
                 <form>
 
                   <FormItem
-                  placeholder="from component"
-                  id="name"
-                  name="name"
-                  htmlFor="name"
-                  labelText="pi komponent"
+                  forText="Name"
+                  />
+                
+                  <FormItem
+                  forText="Company"
                   />
 
-                  <div className="relative mb-1 sm:mb-8">
-                    <input
-                      placeholder="First & Last Name"
-                      required
-                      type="text"
-                      className="peer font-bold placeholder-transparent flex-grow w-full border-b border-brand-text focus:outline-none bg-brand-gunmetal h-12  mb-2  focus:border-brand-culturedDark "
-                      id="name"
-                      name="name"
-                    />
-                    <label
-                      htmlFor="name"
-                      className="transition-all peer-placeholder-shown:text-base peer-placeholder-shown:top-3 absolute left-0 -top-3.5 text-sm peer-focus:-top-3.5 peer-focus:text-sm"
-                    >
-                      First & Last Name
-                    </label>
-                  </div>
-
-                  <div className="relative mb-1 sm:mb-8">
-                    <input
-                      placeholder="Email"
-                      required
-                      type="text"
-                      className="peer font-bold placeholder-transparent flex-grow w-full border-b border-brand-text focus:outline-none bg-brand-gunmetal h-12  mb-2  focus:border-brand-culturedDark "
-                      id="email"
-                      name="email"
-                    />
-                    <label
-                      htmlFor="email"
-                      className="transition-all peer-placeholder-shown:text-base peer-placeholder-shown:top-3 absolute left-0 -top-3.5 text-sm peer-focus:-top-3.5 peer-focus:text-sm"
-                    >
-                    Email
-                    </label>
-                  </div>
-
-                  <div className="relative mb-1 sm:mb-8">
-                    <input
-                      placeholder="Phone"
-                      required
-                      type="text"
-                      className="peer font-bold placeholder-transparent flex-grow w-full border-b border-brand-text focus:outline-none bg-brand-gunmetal h-12  mb-2  focus:border-brand-culturedDark "
-                      id="phone"
-                      name="phone"
-                    />
-                    <label
-                      htmlFor="phone"
-                      className="transition-all peer-placeholder-shown:text-base peer-placeholder-shown:top-3 absolute left-0 -top-3.5 text-sm peer-focus:-top-3.5 peer-focus:text-sm"
-                    >
-                    Phone
-                    </label>
-                  </div>
-
-                  <div className="relative mb-1 sm:mb-8">
+                  <div className="relative sm:mt-4">
                     <select
-                      placeholder="Budget"
                       required
                       type="text"
-                      className="peer font-bold placeholder-transparent flex-grow w-full border-b border-brand-text focus:outline-none bg-brand-gunmetal h-12  mb-2  focus:border-brand-culturedDark "
-                      id="budget"
-                      name="budget"
+                      className=" flex-grow w-full border-b border-brand-text focus:outline-none bg-brand-gunmetal h-12  mb-2  focus:border-brand-culturedDark "
+                      id="interest"
+                      name="interest"
                     > 
-                      <option value='kjo' disabled selected > Budget</option>
-                      <option>USD</option>
-                      <option>CAD</option>
-                      <option>EUR</option>
+                      <option value="" disabled selected>Interest</option>
+                      <optgroup label="Jamstack">
+                      <option value="Websites">Websites</option>
+                      <option value="Web Apps">Web Apps</option>
+                      <option value="eCommerce">eCommerce</option>
+
+                    </optgroup>
+                    <optgroup label="More">
+                      <option value="UX/UI Design">UX/UI Design</option>
+                      <option value="Manage Project">Manage Project</option>
+                      <option value="Multimedia">Multimedia</option>
+                      <option value="Other">Something else</option>
+                    </optgroup>
                   </select>
-                  </div>
+
+                </div>
+
+                  <FormItem
+                  forText="Email"
+                  />
 
                   <div className="mt-4 mb-2 sm:mb-4">
                     <button
