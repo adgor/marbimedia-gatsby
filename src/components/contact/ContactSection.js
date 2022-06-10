@@ -1,4 +1,5 @@
 import React from "react";
+import { FormItem } from "./FormItem"
 
 export const ContactSection = () => {
   return (<div className="overflow-hidden bg-brand-gunmetal">
@@ -33,6 +34,14 @@ export const ContactSection = () => {
             <div className="relative">
               <div className="relative">
                 <form>
+
+                  <FormItem
+                  placeholder="from component"
+                  id="name"
+                  name="name"
+                  htmlFor="name"
+                  labelText="pi komponent"
+                  />
 
                   <div className="relative mb-1 sm:mb-8">
                     <input
@@ -94,7 +103,7 @@ export const ContactSection = () => {
                       id="budget"
                       name="budget"
                     > 
-                      <option value='' disabled selected > Budget</option>
+                      <option value='kjo' disabled selected > Budget</option>
                       <option>USD</option>
                       <option>CAD</option>
                       <option>EUR</option>

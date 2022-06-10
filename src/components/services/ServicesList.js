@@ -1,8 +1,8 @@
 import React from "react";
 import { Service } from "./Service";
-import  WebApps  from "./assets/WebApps.svg";
-import  Design  from "./assets/Design.svg";
-import  ProjectIdea  from "./assets/ProjectIdea.svg";
+import  WebApps  from "../assets/WebApps.svg";
+import  Design  from "../assets/Design.svg";
+import  ProjectIdea  from "../assets/ProjectIdea.svg";
 
 export const ServicesList = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import Btn from "./Btn";
+import Btn from "../buttons/Btn";
 
 export const Service = ({
   bgStyle,

@@ -1,10 +1,10 @@
 import React from "react"
-import { Hero } from "../components/Hero";
-import { CtaLight } from "../components/sections/CtaLight";
-import { ServicesList } from "../components/ServicesList";
-import { TrustedLogos } from "../components/TrustedLogos";
-import { CtaDark } from "../components/sections/CtaDark";
-import { ContactSection }  from "../components/ContactSection";
+import { Hero } from "../components/hero/Hero";
+import { CtaLight } from "../components/cta/CtaLight";
+import { ServicesList } from "../components/services/ServicesList";
+import { TrustedLogos } from "../components/cta/TrustedLogos";
+import { CtaDark } from "../components/cta/CtaDark";
+import { ContactSection }  from "../components/contact/ContactSection";
 
 import Layout from "../components/layout/layout"
 import SEO from "../components/layout/seo"

@@ -1,5 +1,5 @@
 import React from "react";
-import Btn from "../Btn";
+import Btn from "../buttons/Btn";
 import PropTypes from "prop-types"
 
 export const CtaItem = ({

@@ -1,8 +1,8 @@
 import React from "react";
-import  Vercel  from "./assets/Vercel.svg";
-import  Strapi  from "./assets/Strapi.svg";
-import  Azure  from "./assets/Azure.svg";
-import  Youtube  from "./assets/Youtube.svg";
+import  Vercel  from "../assets/Vercel.svg";
+import  Strapi  from "../assets/Strapi.svg";
+import  Azure  from "../assets/Azure.svg";
+import  Youtube  from "../assets/Youtube.svg";
 
 export const TrustedLogos = () => {
   return (
