@@ -10,6 +10,8 @@ export const CtaItem = ({
   titleStyle,
   descStyle,
   btnLink,
+  btnStyle,
+  btnText,
 }) => {
   return (
     <section className={bgStyle}>
@@ -29,8 +31,8 @@ export const CtaItem = ({
           </div>
           <Btn
             link={btnLink}
-            btnColorStyle="bg-brand-culturedDark text-brand-charcoal"
-            text="see our services"
+            btnColorStyle={btnStyle}
+            text={btnText}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -59,6 +61,8 @@ CtaItem.propTypes = {
   titleStyle: PropTypes.string,
   descStyle: PropTypes.string,
   btnLink: PropTypes.string,
+  btnStyle: PropTypes.string,
+  btnText: PropTypes.string,
 
 }
 
@@ -70,4 +74,6 @@ CtaItem.defaultProps = {
   titleStyle: ``,
   descStyle: ``,
   btnLink: ``,
+  btnStyle: ``,
+  btnText: ``,
 }

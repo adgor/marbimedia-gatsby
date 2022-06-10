@@ -5,6 +5,8 @@ export const CtaDark = () => {
   return (
     <CtaItem
       btnLink="#contact"
+      btnStyle="bg-brand-charcoal text-brand-cultured"
+      btnText="contact us"
       bgStyle="bg-brand-gunmetal"
       titleStyle="text-brand-cultured sm:text-5xl font-bold"
       descStyle="text-brand-text text-lg max-w-xl"
