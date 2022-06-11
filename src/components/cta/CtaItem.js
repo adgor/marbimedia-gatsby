@@ -36,7 +36,7 @@ export const CtaItem = ({
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="w-4 h-4 duration-700 ease-in-out transform text-brand-jonquil group-hover:translate-y-0.5"
+              className="w-4 h-4 duration-700 ease-in-out transform group-hover:translate-y-0.5"
               viewBox="0 0 20 20"
               fill="currentColor"
             >

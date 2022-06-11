@@ -13,7 +13,7 @@ export const ContactSection = () => {
               Don’t be stranger  <br />
                to talk to us?
             </h2> 
-            <p className="max-w-md mb-4 text-base text-brand-text md:text-lg">
+            <p className="max-w-md  text-base text-brand-text md:text-lg">
             When you work with DigiAgency , you’re joining a large, happy family that rides the wave of innovation to success. Drop us a line, and we’ll be in touch.
             </p>
           </div>

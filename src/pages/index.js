@@ -18,7 +18,7 @@ const IndexPage = () => (
     <ServicesList />
     <TrustedLogos />   
     <CtaDark />
-    <  ContactSection  />
+    <ContactSection />
   </Layout>
 )
 

@@ -5,6 +5,7 @@ export const CtaLight = () => {
   return (
     <CtaItem
       btnLink="#services"
+      btnStyle="bg-brand-culturedDark text-brand-charcoal"
       bgStyle="bg-brand-cultured"
       titleStyle="text-brand-gunmetal sm:text-3xl font-semibold leading-9"
       descStyle="text-brand-charcoal text-base max-w-md"
@@ -15,4 +16,4 @@ export const CtaLight = () => {
       more revenue and growth."
     />
   );
-};
+}; 
