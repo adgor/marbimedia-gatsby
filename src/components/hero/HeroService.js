@@ -1,54 +1,28 @@
 import React from 'react'
+import Technology from '../assets/technology.svg'
 
 export const HeroService = () => {
   return (
-    <div className="relative flex flex-col py-16 lg:pt-0 lg:flex-col lg:pb-0">
-      <div className="flex flex-col items-start w-full max-w-xl px-4 mx-auto lg:px-8 lg:max-w-screen-xl">
-        <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
-          <div className="max-w-xl mb-6">
-            <div>
-              <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-                New Colaboration
-              </p>
-            </div>
-            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-              The quick, brown fox
-              <br className="hidden md:block" />
-              jumps over{' '}
-              <span className="inline-block text-deep-purple-accent-400">
-                a lazy dog
-              </span>
+    <section className='bg-brand-richBlack'>
+      <div className='relative mx-auto overflow-hidden px-4 py-16 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:py-20'>
+        <div className='grid items-center pb-10 lg:grid-cols-2'>
+          <div className='w-full'>
+            <h2 className='mb-6 max-w-lg text-3xl font-extrabold tracking-tight text-white sm:text-5xl'>
+            TODO: 
+              <br />
+              <span className=''>Web Hosting</span>
             </h2>
-            <p className="text-base text-gray-700 md:text-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae. explicabo.
+            <p className='px-0 text-lg text-white md:text-xl'>
+              SiteBuilder, 1-click app installer or with a couple of clicks,
+              with our simple, secure, scalable and easy hosting solutions you
+              can have your website online.
             </p>
           </div>
-          <div className="flex flex-col items-center md:flex-row">
-            <a
-              href="/"
-              className="inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-            >
-              Apply Now
-            </a>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700"
-            >
-              Learn more
-            </a>
+          <div className='ml-auto w-[440px] text-center'>
+            <Technology />
           </div>
         </div>
       </div>
-      <div className="inset-y-0 right-0 w-full max-w-xl px-4 mx-auto lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
-        <img
-          className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none sm:h-96 lg:h-full"
-          src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-          alt=""
-        />
-      </div>
-    </div>
-  );
-};
+    </section>
+  )
+}
